@@ -17,9 +17,9 @@ public class UrlEntity {
     @Indexed(expireAfter = "0")
     private LocalDateTime expireAt;
 
-    public Url() {}
+    public UrlEntity() {}
 
-    public Url(String id, String fullUrl, LocalDateTime expireAt) {
+    public UrlEntity(String id, String fullUrl, LocalDateTime expireAt) {
         this.id = id;
         this.fullUrl = fullUrl;
         this.expireAt = expireAt;
